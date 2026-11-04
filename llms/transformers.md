@@ -81,3 +81,4 @@ def attention(Q, K, V):
 
 ## Related
 - [Tokenization — Best Practices](tokenization.md) — step 1 of the pipeline
+- [Embeddings — The Basics](embeddings.md) — step 2 of the pipeline

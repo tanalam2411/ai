@@ -14,7 +14,8 @@ Dated session entries, newest first.
 - Set up this learning journal — notes by topic, a session log, and an auto-maintained index.
 - [Tokenization best practices](llms/tokenization.md) — vocabulary size trade-offs, special tokens, fertility, number splitting, code tokenization.
 - [Transformers — the basics](llms/transformers.md) — what a transformer is, its role in LLMs, self-attention (Q/K/V), encoder vs decoder variants.
+- [Embeddings — the basics](llms/embeddings.md) — vectors of meaning, cosine similarity, static vs contextual, token vs text embeddings, role in RAG.
 
 **Confused by:** —
 
-**Next:** Compare tokenizer fertility on real text; go deeper on attention and embeddings.
+**Next:** Compare tokenizer fertility on real text; go deeper on attention; explore RAG and vector databases.

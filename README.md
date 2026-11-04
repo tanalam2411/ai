@@ -21,6 +21,7 @@ ai/
 ### [LLMs](llms/)
 - [Tokenization — Best Practices](llms/tokenization.md) — vocab size, special tokens, fertility, numbers, code
 - [Transformers — The Basics](llms/transformers.md) — what it is, role in LLMs, self-attention, variants
+- [Embeddings — The Basics](llms/embeddings.md) — meaning as vectors, similarity, token vs text embeddings, RAG use
 
 <!-- Index format:
 ### [Topic](topic/)

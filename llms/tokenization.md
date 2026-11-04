@@ -62,3 +62,4 @@ print(len(tokens) / len(text.split()))              # fertility
 
 ## Related
 - [Transformers — The Basics](transformers.md) — what consumes the tokens
+- [Embeddings — The Basics](embeddings.md) — what each token becomes next
