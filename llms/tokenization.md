@@ -59,3 +59,6 @@ print(len(tokens) / len(text.split()))              # fertility
 ## Open Questions
 - [ ] How do different tokenizers' fertility compare for my own languages/domain?
 - [ ] Do byte-level / tokenizer-free models remove the need for these trade-offs?
+
+## Related
+- [Transformers — The Basics](transformers.md) — what consumes the tokens
