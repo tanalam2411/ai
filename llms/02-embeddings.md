@@ -78,5 +78,5 @@ print(model.similarity(emb[0], emb[2]))               # low   — unrelated
 - [ ] How do I choose the right embedding dimension/model for a RAG project?
 
 ## Related
-- [Tokenization — Best Practices](tokenization.md) — tokens are what get embedded
-- [Transformers — The Basics](transformers.md) — embeddings are the transformer's input
+- [Tokenization — Best Practices](01-tokenization.md) — tokens are what get embedded
+- [Transformers — The Basics](03-transformers.md) — embeddings are the transformer's input

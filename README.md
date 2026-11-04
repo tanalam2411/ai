@@ -13,19 +13,20 @@ ai/
 ├── LEARNING-LOG.md    # dated session log
 ├── CLAUDE.md          # rules for maintaining the journal
 └── <topic>/           # fundamentals/, llms/, rag/, agents/, prompting/, …
-    └── <concept>.md   # one note per concept
+    └── NN-<concept>.md  # one note per concept, numbered in learning order
 ```
 
 ## 📚 Topics & Notes
 
 ### [LLMs](llms/)
-- [Tokenization — Best Practices](llms/tokenization.md) — vocab size, special tokens, fertility, numbers, code
-- [Transformers — The Basics](llms/transformers.md) — what it is, role in LLMs, self-attention, variants
-- [Embeddings — The Basics](llms/embeddings.md) — meaning as vectors, similarity, token vs text embeddings, RAG use
+_Read in order:_
+1. [Tokenization — Best Practices](llms/01-tokenization.md) — vocab size, special tokens, fertility, numbers, code
+2. [Embeddings — The Basics](llms/02-embeddings.md) — meaning as vectors, similarity, token vs text embeddings, RAG use
+3. [Transformers — The Basics](llms/03-transformers.md) — what it is, role in LLMs, self-attention, variants
 
-<!-- Index format:
+<!-- Index format (topics and notes in learning order):
 ### [Topic](topic/)
-- [Note title](topic/note.md) — one-line summary
+1. [Note title](topic/01-note.md) — one-line summary
 -->
 
 ## 🎯 Target Skills

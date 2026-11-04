@@ -61,5 +61,5 @@ print(len(tokens) / len(text.split()))              # fertility
 - [ ] Do byte-level / tokenizer-free models remove the need for these trade-offs?
 
 ## Related
-- [Transformers — The Basics](transformers.md) — what consumes the tokens
-- [Embeddings — The Basics](embeddings.md) — what each token becomes next
+- [Embeddings — The Basics](02-embeddings.md) — what each token becomes next
+- [Transformers — The Basics](03-transformers.md) — what consumes the tokens

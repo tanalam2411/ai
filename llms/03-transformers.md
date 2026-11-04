@@ -80,5 +80,5 @@ def attention(Q, K, V):
 - [ ] What happens inside the feed-forward layers — is that where "knowledge" is stored?
 
 ## Related
-- [Tokenization — Best Practices](tokenization.md) — step 1 of the pipeline
-- [Embeddings — The Basics](embeddings.md) — step 2 of the pipeline
+- [Tokenization — Best Practices](01-tokenization.md) — step 1 of the pipeline
+- [Embeddings — The Basics](02-embeddings.md) — step 2 of the pipeline
