@@ -18,7 +18,8 @@ ai/
 
 ## 📚 Topics & Notes
 
-_No notes yet — topic folders are created as I learn._
+### [LLMs](llms/)
+- [Tokenization — Best Practices](llms/tokenization.md) — vocab size, special tokens, fertility, numbers, code
 
 <!-- Index format:
 ### [Topic](topic/)

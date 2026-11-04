@@ -10,6 +10,10 @@ Dated session entries, newest first.
 -->
 
 ## 2026-11-04
-**Learned:** Set up this learning journal — notes by topic, a session log, and an auto-maintained index.
+**Learned:**
+- Set up this learning journal — notes by topic, a session log, and an auto-maintained index.
+- [Tokenization best practices](llms/tokenization.md) — vocabulary size trade-offs, special tokens, fertility, number splitting, code tokenization.
+
 **Confused by:** —
-**Next:** Start logging notes from courses, articles and PDFs.
+
+**Next:** Compare tokenizer fertility on real text; continue with embeddings.
