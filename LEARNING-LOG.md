@@ -9,6 +9,14 @@ Dated session entries, newest first.
 **Next:** …
 -->
 
+## 2026-11-05
+**Learned:**
+- [Inference — the basics](llms/04-inference.md) — training vs inference, prefill & decode, KV cache, sampling (temperature, top-p), TTFT & tokens/sec, per-token cost, API vs self-hosted vs local, quantization.
+
+**Confused by:** —
+
+**Next:** Try local inference with Ollama; compare temperature settings on the same prompt.
+
 ## 2026-11-04
 **Learned:**
 - Set up this learning journal — notes by topic, a session log, and an auto-maintained index.

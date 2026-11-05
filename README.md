@@ -23,6 +23,7 @@ _Read in order:_
 1. [Tokenization — Best Practices](llms/01-tokenization.md) — vocab size, special tokens, fertility, numbers, code
 2. [Embeddings — The Basics](llms/02-embeddings.md) — meaning as vectors, similarity, token vs text embeddings, RAG use
 3. [Transformers — The Basics](llms/03-transformers.md) — what it is, role in LLMs, self-attention, variants
+4. [Inference — The Basics](llms/04-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
 
 <!-- Index format (topics and notes in learning order):
 ### [Topic](topic/)
