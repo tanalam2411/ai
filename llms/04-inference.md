@@ -111,3 +111,4 @@ ollama run llama3.2 "Explain embeddings in 2 sentences."
 - [Tokenization — Best Practices](01-tokenization.md) — step 1 of every inference call
 - [Embeddings — The Basics](02-embeddings.md) — tokens become vectors
 - [Transformers — The Basics](03-transformers.md) — the model that runs each forward pass
+- [In-Context Learning](../prompting/01-in-context-learning.md) — adapting the model at inference time via the prompt

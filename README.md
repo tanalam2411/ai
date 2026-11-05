@@ -25,6 +25,10 @@ _Read in order:_
 3. [Transformers — The Basics](llms/03-transformers.md) — what it is, role in LLMs, self-attention, variants
 4. [Inference — The Basics](llms/04-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
 
+### [Prompting](prompting/)
+_Read in order:_
+1. [In-Context Learning](prompting/01-in-context-learning.md) — learning from prompt examples, zero/few-shot, ICL vs fine-tuning
+
 <!-- Index format (topics and notes in learning order):
 ### [Topic](topic/)
 1. [Note title](topic/01-note.md) — one-line summary

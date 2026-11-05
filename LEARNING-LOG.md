@@ -12,10 +12,11 @@ Dated session entries, newest first.
 ## 2026-11-05
 **Learned:**
 - [Inference — the basics](llms/04-inference.md) — training vs inference, prefill & decode, KV cache, sampling (temperature, top-p), TTFT & tokens/sec, per-token cost, API vs self-hosted vs local, quantization.
+- [In-context learning](prompting/01-in-context-learning.md) — learning from examples in the prompt without changing weights, zero/one/few-shot, ICL vs fine-tuning, few-shot best practices.
 
 **Confused by:** —
 
-**Next:** Try local inference with Ollama; compare temperature settings on the same prompt.
+**Next:** Try local inference with Ollama; compare zero-shot vs few-shot on the same task; chain-of-thought prompting.
 
 ## 2026-11-04
 **Learned:**
