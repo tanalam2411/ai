@@ -26,6 +26,7 @@ _Read in order:_
 4. [Parameters, Hyperparameters & Sampling](llms/04-parameters.md) — weights & biases, hyperparameters, temperature / top-k / top-p, why it matters to users & agents
 5. [Inference — The Basics](llms/05-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
 6. [Fine-Tuning & PEFT (LoRA)](llms/06-fine-tuning-peft.md) — full vs parameter-efficient tuning, adapters, LoRA/QLoRA, end-to-end PEFT example
+7. [Knowledge Distillation](llms/07-distillation.md) — teacher → student, purpose, DIY recipe, use cases incl. agents
 
 ### [Prompting](prompting/)
 _Read in order:_
