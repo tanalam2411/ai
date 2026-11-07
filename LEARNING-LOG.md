@@ -9,9 +9,19 @@ Dated session entries, newest first.
 **Next:** …
 -->
 
+## 2026-11-07
+**Learned:**
+- [Parameters, hyperparameters & sampling](llms/04-parameters.md) — weights & biases are the learned numbers that *are* the model; hyperparameters are set by humans for training; temperature / top-k / top-p only change how the next token is picked at inference.
+- [Fine-tuning & PEFT](llms/06-fine-tuning-peft.md) — full fine-tuning vs PEFT, adapter layers, LoRA (`W + B·A`), QLoRA, and a full PEFT example: base model + JSONL dataset in → small adapter file out.
+
+**Confused by:**
+- "How parameters come in the picture of AI users or agents, or is it only useful for model training?"
+
+**Next:** Run a small LoRA fine-tune on Colab; compare it against few-shot prompting on the same task; explore RAG.
+
 ## 2026-11-05
 **Learned:**
-- [Inference — the basics](llms/04-inference.md) — training vs inference, prefill & decode, KV cache, sampling (temperature, top-p), TTFT & tokens/sec, per-token cost, API vs self-hosted vs local, quantization.
+- [Inference — the basics](llms/05-inference.md) — training vs inference, prefill & decode, KV cache, sampling (temperature, top-p), TTFT & tokens/sec, per-token cost, API vs self-hosted vs local, quantization.
 - [In-context learning](prompting/01-in-context-learning.md) — learning from examples in the prompt without changing weights, zero/one/few-shot, ICL vs fine-tuning, few-shot best practices.
 
 **Confused by:** —

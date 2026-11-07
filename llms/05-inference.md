@@ -1,6 +1,6 @@
 # Inference — The Basics
 
-> **Date:** 2026-11-05 · **Updated:** 2026-11-05
+> **Date:** 2026-11-05 · **Updated:** 2026-11-07
 
 ## Key Concepts
 - **Inference** — using an already-trained model to produce an output for new input. In LLMs: generating a response to a prompt.
@@ -51,7 +51,7 @@ This one-token-at-a-time loop is called **autoregressive generation** — it's w
 | **max_tokens** | Hard limit on output length | Control cost & length |
 | **stop sequences** | Stop generating when this text appears | Structured output |
 
-*Greedy decoding* = always pick the most likely token (like temperature 0).
+*Greedy decoding* = always pick the most likely token (like temperature 0). Worked example of each setting: [Parameters & Sampling](04-parameters.md).
 
 ### Performance metrics
 - **TTFT (time to first token)** — wait before the answer starts; driven by prefill / prompt length.
@@ -111,4 +111,6 @@ ollama run llama3.2 "Explain embeddings in 2 sentences."
 - [Tokenization — Best Practices](01-tokenization.md) — step 1 of every inference call
 - [Embeddings — The Basics](02-embeddings.md) — tokens become vectors
 - [Transformers — The Basics](03-transformers.md) — the model that runs each forward pass
+- [Parameters, Hyperparameters & Sampling](04-parameters.md) — the frozen weights used here, and sampling in depth
+- [Fine-Tuning & PEFT (LoRA)](06-fine-tuning-peft.md) — changing the weights after pre-training
 - [In-Context Learning](../prompting/01-in-context-learning.md) — adapting the model at inference time via the prompt

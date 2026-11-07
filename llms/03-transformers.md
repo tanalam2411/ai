@@ -82,4 +82,5 @@ def attention(Q, K, V):
 ## Related
 - [Tokenization — Best Practices](01-tokenization.md) — step 1 of the pipeline
 - [Embeddings — The Basics](02-embeddings.md) — step 2 of the pipeline
-- [Inference — The Basics](04-inference.md) — how the trained transformer generates answers
+- [Parameters, Hyperparameters & Sampling](04-parameters.md) — the weights inside the transformer
+- [Inference — The Basics](05-inference.md) — how the trained transformer generates answers

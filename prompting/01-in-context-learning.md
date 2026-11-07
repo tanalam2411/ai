@@ -88,6 +88,7 @@ print(response.content[0].text)   # → negative
 - [ ] Is the model really *learning* in context, or just recognising a pattern it already knows?
 
 ## Related
-- [Inference — The Basics](../llms/04-inference.md) — ICL happens at inference time, weights frozen
+- [Fine-Tuning & PEFT (LoRA)](../llms/06-fine-tuning-peft.md) — the weight-updating alternative
+- [Inference — The Basics](../llms/05-inference.md) — ICL happens at inference time, weights frozen
 - [Transformers — The Basics](../llms/03-transformers.md) — attention is what lets the model use the examples
 - [Tokenization — Best Practices](../llms/01-tokenization.md) — examples cost tokens on every call

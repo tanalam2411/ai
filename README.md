@@ -23,7 +23,9 @@ _Read in order:_
 1. [Tokenization — Best Practices](llms/01-tokenization.md) — vocab size, special tokens, fertility, numbers, code
 2. [Embeddings — The Basics](llms/02-embeddings.md) — meaning as vectors, similarity, token vs text embeddings, RAG use
 3. [Transformers — The Basics](llms/03-transformers.md) — what it is, role in LLMs, self-attention, variants
-4. [Inference — The Basics](llms/04-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
+4. [Parameters, Hyperparameters & Sampling](llms/04-parameters.md) — weights & biases, hyperparameters, temperature / top-k / top-p, why it matters to users & agents
+5. [Inference — The Basics](llms/05-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
+6. [Fine-Tuning & PEFT (LoRA)](llms/06-fine-tuning-peft.md) — full vs parameter-efficient tuning, adapters, LoRA/QLoRA, end-to-end PEFT example
 
 ### [Prompting](prompting/)
 _Read in order:_
