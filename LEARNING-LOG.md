@@ -9,11 +9,19 @@ Dated session entries, newest first.
 **Next:** …
 -->
 
+## 2026-11-12
+**Learned:**
+- [Decoding](llms/06-decoding.md) — the algorithm around the model that turns per-token probabilities into text. Deterministic (greedy, beam search, contrastive search) vs stochastic (temperature, top-k, top-p, min-p, typical); repetition penalties, logit bias, stop sequences; constrained decoding for guaranteed-valid JSON/tool calls; best-of-N & self-consistency; speculative decoding for speed.
+
+**Confused by:** —
+
+**Next:** Try each decoding method on a small model with Hugging Face `generate`; test structured outputs for an agent's tool calls; compare self-consistency vs a single reasoning-model call.
+
 ## 2026-11-07
 **Learned:**
 - [Parameters, hyperparameters & sampling](llms/04-parameters.md) — weights & biases are the learned numbers that *are* the model; hyperparameters are set by humans for training; temperature / top-k / top-p only change how the next token is picked at inference.
-- [Fine-tuning & PEFT](llms/06-fine-tuning-peft.md) — full fine-tuning vs PEFT, adapter layers, LoRA (`W + B·A`), QLoRA, and a full PEFT example: base model + JSONL dataset in → small adapter file out.
-- [Knowledge distillation](llms/07-distillation.md) — a small student model trained to imitate a big teacher; cheaper, faster, runs locally. Anyone can do it (teacher-generated data + LoRA); useful for agents (distilled tool-calling, routing, sub-agents).
+- [Fine-tuning & PEFT](llms/07-fine-tuning-peft.md) — full fine-tuning vs PEFT, adapter layers, LoRA (`W + B·A`), QLoRA, and a full PEFT example: base model + JSONL dataset in → small adapter file out.
+- [Knowledge distillation](llms/08-distillation.md) — a small student model trained to imitate a big teacher; cheaper, faster, runs locally. Anyone can do it (teacher-generated data + LoRA); useful for agents (distilled tool-calling, routing, sub-agents).
 
 **Confused by:**
 - "How parameters come in the picture of AI users or agents, or is it only useful for model training?"

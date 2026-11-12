@@ -25,8 +25,9 @@ _Read in order:_
 3. [Transformers — The Basics](llms/03-transformers.md) — what it is, role in LLMs, self-attention, variants
 4. [Parameters, Hyperparameters & Sampling](llms/04-parameters.md) — weights & biases, hyperparameters, temperature / top-k / top-p, why it matters to users & agents
 5. [Inference — The Basics](llms/05-inference.md) — training vs inference, generation loop, sampling, speed, cost, where it runs
-6. [Fine-Tuning & PEFT (LoRA)](llms/06-fine-tuning-peft.md) — full vs parameter-efficient tuning, adapters, LoRA/QLoRA, end-to-end PEFT example
-7. [Knowledge Distillation](llms/07-distillation.md) — teacher → student, purpose, DIY recipe, use cases incl. agents
+6. [Decoding](llms/06-decoding.md) — greedy, beam search, temperature / top-k / top-p / min-p, repetition penalties, constrained decoding, self-consistency, speculative decoding
+7. [Fine-Tuning & PEFT (LoRA)](llms/07-fine-tuning-peft.md) — full vs parameter-efficient tuning, adapters, LoRA/QLoRA, end-to-end PEFT example
+8. [Knowledge Distillation](llms/08-distillation.md) — teacher → student, purpose, DIY recipe, use cases incl. agents
 
 ### [Prompting](prompting/)
 _Read in order:_

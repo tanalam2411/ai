@@ -14,7 +14,7 @@
 ## Explanation
 
 ### What is it?
-Distillation is **a special kind of [fine-tuning](06-fine-tuning-peft.md)** where the training data comes from another model instead of humans.
+Distillation is **a special kind of [fine-tuning](07-fine-tuning-peft.md)** where the training data comes from another model instead of humans.
 
 ```
    Prompts ──▶ 🧠 Teacher (big, slow, expensive) ──▶ answers / probabilities
@@ -47,7 +47,7 @@ Famous examples: DistilBERT (40% smaller, ~97% of BERT's quality), DeepSeek-R1-D
 
 ### Can a normal person use it? — Yes
 
-You don't need a lab. The practical recipe is **synthetic-data distillation + [LoRA/QLoRA](06-fine-tuning-peft.md)**:
+You don't need a lab. The practical recipe is **synthetic-data distillation + [LoRA/QLoRA](07-fine-tuning-peft.md)**:
 
 1. Collect ~500–5,000 realistic prompts for your task.
 2. Send them to a strong model (API) → save the best answers (filter / review bad ones).
@@ -140,7 +140,7 @@ loss = 0.5 * soft + 0.5 * hard
 - [ ] Distillation for agents: how to evaluate a distilled tool-calling model reliably?
 
 ## Related
-- [Fine-Tuning & PEFT (LoRA)](06-fine-tuning-peft.md) — the training method used to build the student
+- [Fine-Tuning & PEFT (LoRA)](07-fine-tuning-peft.md) — the training method used to build the student
 - [Parameters, Hyperparameters & Sampling](04-parameters.md) — why fewer parameters = cheaper; temperature in the loss
 - [Inference — The Basics](05-inference.md) — the cost/latency distillation reduces; quantization
 - [In-Context Learning](../prompting/01-in-context-learning.md) — try prompting before training anything

@@ -1,6 +1,6 @@
 # Parameters, Hyperparameters & Sampling Settings
 
-> **Date:** 2026-11-07 · **Updated:** 2026-11-07
+> **Date:** 2026-11-07 · **Updated:** 2026-11-12
 
 ## Key Concepts
 - **Parameters** — the numbers *inside* the model that it learns during training (weights + biases). "Llama 3 8B" = ~8 billion parameters.
@@ -50,7 +50,7 @@ Yes — even though you never edit weights when calling an API:
 | **Choosing a model** | Param count is a rough proxy for capability, cost and speed (e.g. small model for classification, big model for reasoning). |
 | **Running locally / self-hosting** | Param count × bytes per param = will it fit on your GPU/RAM? Drives quantization choices. |
 | **Calling an API / building an agent** | You tune **sampling settings** per task: temperature 0 for tool calls, JSON and code; higher for brainstorming. |
-| **Customizing a model** | Fine-tuning / LoRA *does* change parameters → see [Fine-Tuning & PEFT](06-fine-tuning-peft.md). |
+| **Customizing a model** | Fine-tuning / LoRA *does* change parameters → see [Fine-Tuning & PEFT](07-fine-tuning-peft.md). |
 
 So: weights/biases matter mostly for training and model choice; sampling settings matter every day for users and agents.
 
@@ -129,4 +129,5 @@ print(sum(p.numel() for p in model.parameters()))   # ~494,000,000
 ## Related
 - [Transformers — The Basics](03-transformers.md) — where the weights live
 - [Inference — The Basics](05-inference.md) — the generation loop where sampling happens
-- [Fine-Tuning & PEFT (LoRA)](06-fine-tuning-peft.md) — changing parameters after pre-training
+- [Decoding](06-decoding.md) — sampling is one family of decoding; beam search, min-p, penalties, constrained decoding
+- [Fine-Tuning & PEFT (LoRA)](07-fine-tuning-peft.md) — changing parameters after pre-training
