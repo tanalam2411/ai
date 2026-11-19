@@ -7,19 +7,24 @@ Never ask the owner to do anything manually.
 ## Workflow (every time the owner shares a learning)
 
 1. **Write a note** — turn it into a clean, concise Markdown note (template below).
-2. **File it by topic** — save under a topic folder (e.g. `fundamentals/`, `llms/`, `rag/`,
-   `agents/`, `prompting/`). Create a new folder when a new topic appears.
-   - File names: `NN-kebab-case.md`, numbered in **learning order** so GitHub lists them
-     in the order to read (e.g. `llms/01-tokenization.md`, `llms/02-embeddings.md`).
+2. **File it by chapter, then topic** — save under the current chapter folder
+   (`chapter-NN/`, e.g. `chapter-01/`, `chapter-15/`), then a topic folder inside it
+   (e.g. `fundamentals/`, `llms/`, `rag/`, `agents/`, `prompting/`). Create new folders as
+   needed. Chapters are kept separate: a note goes in the chapter the owner is currently
+   studying (the latest chapter unless the owner names another).
+   - Current chapter: **chapter-15** (chapter-01 holds all earlier notes).
+   - File names: `NN-kebab-case.md`, numbered in **learning order** within each chapter/topic
+     (e.g. `chapter-01/llms/01-tokenization.md`, `chapter-01/llms/02-embeddings.md`).
      When a new note belongs in the middle, insert it and renumber the following notes
      with `git mv`, then fix every link to them.
-   - Topic folders stay unnumbered; `README.md` lists topics in learning order
+   - Chapter folders are zero-padded (`chapter-01`); topic folders stay unnumbered.
+     `README.md` lists chapters in order, and topics within each chapter in learning order
      (fundamentals → llms → prompting → rag → agents …).
-   - **No duplicates:** if a note on the same concept exists, update it (append new insights,
+   - **No duplicates:** if a note on the same concept exists in the same chapter, update it (append new insights,
      bump the `Updated` date) instead of creating a new file.
 3. **Log the session** — add a dated entry to `LEARNING-LOG.md` (newest first):
    what I learned, what confused me, what's next. One entry per day; extend it if it exists.
-4. **Update the index** — keep `README.md` linking every topic folder and note, in learning order.
+4. **Update the index** — keep `README.md` linking every chapter, topic folder and note, in learning order.
 5. **Commit & push** — clear message (e.g. `notes(rag): add chunking strategies`) and push to
    `main` without asking. If pushing to `main` isn't possible, push a branch, open a pull
    request, and tell the owner the PR link.
