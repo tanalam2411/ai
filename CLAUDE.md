@@ -4,6 +4,20 @@ This repo is the owner's personal AI learning journal. Claude manages it end to 
 the owner only shares what they learned; Claude writes, organizes, commits and pushes.
 Never ask the owner to do anything manually.
 
+## Source book
+
+The journal follows **The Hitchhiker's Guide to Agentic AI: From Foundations to Systems**
+(Haggai Roitman, arXiv:2606.24937). Five parts: LLM foundations (architecture & optimization,
+training/inference hardware & systems, classical RL) → … → agentic AI (agentic training, RAG &
+agentic RAG, memory, tool integration, multi-agent orchestration, agent communication,
+harness & loop engineering, agentic UIs).
+
+- `chapter-NN/` = the book's chapter NN. The owner only names a topic; Claude decides the
+  chapter and topic folder from the book's structure (current chapter by default).
+- Notes from the book use `**Source:** Hitchhiker's Guide to Agentic AI, Ch. NN` (add the
+  section, e.g. `§15.2`, when known).
+- In `README.md`, give each chapter heading the book's chapter title once known.
+
 ## Workflow (every time the owner shares a learning)
 
 1. **Write a note** — turn it into a clean, concise Markdown note (template below).

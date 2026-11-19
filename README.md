@@ -1,6 +1,7 @@
 # 🧠 AI Learning Journal
 
-My personal notes from learning AI — courses, articles and PDFs.
+My personal notes from learning AI, following
+📖 **The Hitchhiker's Guide to Agentic AI: From Foundations to Systems** (Haggai Roitman, [arXiv:2606.24937](https://arxiv.org/abs/2606.24937)) — one folder per book chapter.
 Maintained automatically by Claude (see [CLAUDE.md](CLAUDE.md)).
 
 📓 **[Learning Log](LEARNING-LOG.md)** — dated session entries
